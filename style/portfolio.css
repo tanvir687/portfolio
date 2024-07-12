@@ -30,8 +30,17 @@
   font-weight: 400;
   color: rgb(117, 117, 117);
 }
-.secondary-bg{
-    background-color: rgb(255, 248, 243);
+.secondary-bg {
+  background-color: rgb(255, 248, 243);
+}
+.text-center {
+  text-align: center;
+}
+.description-padding{
+  padding-left: 115px;
+  padding-right: 115px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 /* Dark 01 */
 .dark-1 {
@@ -45,13 +54,13 @@
 .dark-3 {
   color: rgb(117, 117, 117);
 }
+
 /* header style  */
 .header {
   background: url("../images/developer.png"), url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: left top, right bottom;
   background-color: rgb(255, 248, 243);
-
 }
 /* navigation style start */
 nav {
@@ -101,28 +110,50 @@ nav ul li a {
   width: 584px;
 }
 /* main styles */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-    padding-top: 130px;
-    
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
 /* about style */
-.about{
-    padding: 130px 150px;
-    text-align: center;
-    border-radius: 10px;
-    
+.about {
+  padding: 130px 150px;
+  text-align: center;
+  border-radius: 10px;
 }
-.about-items{
-    display: flex;
-    justify-content: space-around;
+.about-items {
+  display: flex;
+  justify-content: space-around;
 }
-.about-title{
-    font-weight: 400;
-    font-size: 20px;
+.about-title {
+  font-weight: 400;
+  font-size: 20px;
 }
-.about-description{
-    font-weight: 700;
-    font-size: 20px;
+.about-description {
+  font-weight: 700;
+  font-size: 20px;
+}
+/* skills style  */
+.skill-container {
+  display: flex;
+  gap: 24px;
+  max-height: 377px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  
+}
+.skill-title{
+  font-size: 20px;
+  font-weight: 700;
+}
+.skill-description{
+  font-weight: 400;
+  font-size: 16px;
 }
