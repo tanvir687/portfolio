@@ -20,23 +20,38 @@
   border: none;
   cursor: pointer;
 }
+.section-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(24, 24, 24);
+}
+.section-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+}
+.secondary-bg{
+    background-color: rgb(255, 248, 243);
+}
 /* Dark 01 */
-.dark-1{
-   color: rgb(24, 24, 24);
+.dark-1 {
+  color: rgb(24, 24, 24);
 }
 /* Dark 02  */
 .dark-2 {
   color: rgb(71, 71, 71);
 }
 /* Dark 03 */
-.dark-3{
-color:rgb(117, 117, 117) ;
+.dark-3 {
+  color: rgb(117, 117, 117);
 }
 /* header style  */
-.header{
-    background: url('../images/developer.png'), url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: left top, right bottom ;
+.header {
+  background: url("../images/developer.png"), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+  background-color: rgb(255, 248, 243);
+
 }
 /* navigation style start */
 nav {
@@ -63,26 +78,51 @@ nav ul li a {
 }
 
 /* banner style */
-.banner{
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+.banner-content {
+  max-width: 580px;
+}
+.banner-greetings {
+  font-family: 600;
+  font-size: 45px;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+}
+.banner-description {
+  font-size: 18px;
+}
+.banner-profile-pic {
+  width: 584px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 130px;
+    
+}
+/* about style */
+.about{
+    padding: 130px 150px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.about-items{
     display: flex;
-    justify-content: space-between;
-    margin: 0 35px 0 200px;
+    justify-content: space-around;
 }
-.banner-content{
-    max-width: 580px;
+.about-title{
+    font-weight: 400;
+    font-size: 20px;
 }
-.banner-greetings{
-    font-family: 600;
-    font-size: 45px;
-}
-.banner-title{
-    font-size: 85px;
-    font-weight: bold;
-}
-.banner-description{
-    font-size: 18px;
-
-}
-.banner-profile-pic{
-    width: 584px;
+.about-description{
+    font-weight: 700;
+    font-size: 20px;
 }
